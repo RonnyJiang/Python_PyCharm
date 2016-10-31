@@ -1,4 +1,4 @@
-### Python_PyCharm  主要存放python学习demo。
+### Python_PyCharm  主要存放python学习demo
 ##### Author ： RonnyJiang
 
 
