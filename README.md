@@ -17,8 +17,9 @@
                                                                      
 --------------------------------------------------------------------------------------------------
 列表：
-* HelloWorld --python输入输出，以及设置file模板  
-* StringCoding --python的字符串与编码
-* ListAndTuple  --python列表和元组
-* JudgeAndLoop  --if判断及for.while循环
-* DictAndSet    --字典和集合
+* HelloWorld     --python输入输出，以及设置file模板  
+* StringCoding   --python的字符串与编码
+* ListAndTuple   --python列表和元组
+* JudgeAndLoop   --if判断及for.while循环
+* DictAndSet     --字典和集合
+* Functions      --函数，内建函数，自定义函数，函数参数，函数参数类型校验，多个返回值，递归函数
