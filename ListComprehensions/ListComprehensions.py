@@ -78,3 +78,13 @@ list1 = ['Hello', 'World', 18, 'Apple', None]
 list2 = [ s.lower() for s in list1 if isinstance(s,str) ]
 print(list2)
 
+
+##这个在map reduce那块介绍
+def upString(s):
+    if isinstance(s,str):
+        return s.lower()
+    else:
+        return s
+
+listg = list(map(upString,list1))
+print(listg)
