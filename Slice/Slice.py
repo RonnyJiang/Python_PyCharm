@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
- @desc:
+ @desc:切片，截取数据段很好用
  @author: ronny
  @contact: set@aliyun.com
  @site: www.lemon.pub
