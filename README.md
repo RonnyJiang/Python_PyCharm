@@ -37,4 +37,5 @@
 
 ####函数式编程
 * 高阶函数         --一个函数接收另一个函数作为参数，这种函数就称之为高阶函数。
+* MapReduce       --Python内建了map()和reduce()函数,利用mapreduce实现str2int和str2float函数
 
