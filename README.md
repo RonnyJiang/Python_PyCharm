@@ -44,3 +44,6 @@
 
 ####模块
 * 模块说明         --模块说明，又引入了按目录来组织模块的方法，称为包（Package），及__init__.py说明
+* HelloModule     --创建模块
+* HelloModuleTest --使用测试刚刚创建的模块
+* InstallAndUseModule  --安装pip，并通过pip安装第三方库——Python Imaging Library  即pip install Pillow，然后制作缩略图
