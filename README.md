@@ -40,3 +40,4 @@
 * MapReduce       --Python内建了map()和reduce()函数,利用mapreduce实现str2int和str2float函数
 * Sort            ——Sort也是一个高阶函数。用sorted()排序的关键在于实现一个映射函数。
 * Lambda          --匿名函数，Python对匿名函数的支持有限，只有一些简单的情况下可以使用匿名函数
+* PartialFunction --偏函数，方便在原有函数基础上，固定个别参数，生成新的函数，eg int函数固定base
