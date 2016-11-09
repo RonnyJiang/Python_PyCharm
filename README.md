@@ -47,3 +47,6 @@
 * HelloModule     --创建模块
 * HelloModuleTest --使用测试刚刚创建的模块
 * InstallAndUseModule  --安装pip，并通过pip安装第三方库—Python Imaging Library--PIL，然后制作缩略图
+
+####面向对象编程
+* ObjectDemo      --创建一个class，分析面向对象编程的设计思想及与面向过程的区别
