@@ -20,6 +20,7 @@ def test():
         print("Too many arguments!")
 
 if __name__=='__main__':
+    print(__name__)
     test()
 # test()
 '''如果把上面的test()取消注释，那在helloModuleTest.py文件import时会发现import HelloModule.hello就会执行test()函数'''
