@@ -57,6 +57,9 @@ def run_shell_command(cmd):
 def get_env(ev):
     return os.environ.get(ev)
 
+def get_profile_list(content):
+
+
 def get_change_content(gerrit_ip="10.27.254.101", gerrit_port="29000"):
     # change_id = get_env("JAVA_HOME")     ##参数为JAVA_HOME时echo：C:\Program Files\Java\jdk1.7.0_80
     # print(gerrit_ip,gerrit_port,change_id)
@@ -74,6 +77,9 @@ def get_change_content(gerrit_ip="10.27.254.101", gerrit_port="29000"):
 def update_trigger_config():
     LOG.info('update_trigger_config in')
     change_content = get_change_content()
+
+    profile_list = get_profile_list(get_env("profile"))
+
     LOG.info('update_trigger_config out')
 
 
