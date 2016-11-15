@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
- @desc:  使用__slots__
+ @desc:  使用__slots__ 限制类被绑定的属性，防止随意绑定属性
  @author: ronny
  @contact: set@aliyun.com
  @site: www.lemon.pub
