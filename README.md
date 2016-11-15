@@ -59,3 +59,6 @@
 我们会讨论多重继承、定制类、元类等概念】
 * __slots__      --限制类被绑定的属性，防止随意绑定属性
 * property       使用@property装饰器负责把一个方法变成属性调用
+
+####错误、调试和测试
+ErrorHanding     --错误处理(try...except...finally),调用堆栈、记录错误（logging）、抛出错误（raise）
