@@ -63,3 +63,6 @@
 ####错误、调试和测试
 * ErrorHanding     --错误处理(try...except...finally),调用堆栈、记录错误（logging）、抛出错误（raise）
 * debug            --调试（pdb，IDE,logging)--虽然用IDE调试起来比较方便，但是最后你会发现，logging才是终极武器。
+
+####IO 编程
+* IOStream/ReasWriteFile --文件读写  还介绍了with ..as..用以解决open异常，f.close的case
