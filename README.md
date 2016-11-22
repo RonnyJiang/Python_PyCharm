@@ -68,14 +68,20 @@
 * IOStream/ReasWriteFile --文件读写  还介绍了with ..as..用以解决open异常，f.close的case
 * OsAndOsPath      --操作文件和目录
 
+####
+
 ####进程和线程
-ProcessingAndThread/myMultiProcessing   --多进程
-ProcessingAndThread/ProcessPool         --线程池
-ProcessingAndThread/ProcessCommunicate  --进程间通信
+* ProcessingAndThread/myMultiProcessing   --多进程
+* ProcessingAndThread/ProcessPool         --线程池
+* ProcessingAndThread/ProcessCommunicate  --进程间通信
 
-在Unix/Linux下，可以使用fork()调用实现多进程。要实现跨平台的多进程，可以使用multiprocessing模块。进程间通信是通过Queue、Pipes等实现的。
+* 在Unix/Linux下，可以使用fork()调用实现多进程。要实现跨平台的多进程，可以使用multiprocessing模块。进程间通信是通过Queue、Pipes等实现的。
 
-ProcessingAndThread/myMultithreading   --多线程
-ProcessingAndThread/ThreadLock         --线程锁
-ProcessingAndThread/ThreadForMultiCoreCpu --多核cpu在线程上也并没太大毛用GIL的原因
-ProcessingAndThread/ThreadLocal        --ThreadLocal解决了参数在一个线程中各个函数之间互相传递的问题。
+* ProcessingAndThread/myMultithreading   --多线程
+* ProcessingAndThread/ThreadLock         --线程锁
+* ProcessingAndThread/ThreadForMultiCoreCpu --多核cpu在线程上也并没太大毛用GIL的原因
+* ProcessingAndThread/ThreadLocal        --ThreadLocal解决了参数在一个线程中各个函数之间互相传递的问题。
+
+* DistributedProcess                     --Python的multiprocessing模块不但支持多进程，其中managers子模块还支持把多进程分布到多台机器上
+                                         一个服务进程可以作为调度者，将任务分布到其他多个进程中，依靠网络通信。
+                                         由于managers模块封装很好，不必了解网络通信的细节，就可以很容易地编写分布式多进程程序。
