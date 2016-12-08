@@ -61,5 +61,17 @@ def login():
         return '<h3>Hello, Ronny Jiang!</h3>'
     return '<h3>Bad username or password.</h3>'
 
+@app.route('/tel',methods=['GET'])
+def tel():
+    return '''<form action="/tel" method="post">
+              <h1>tel:136119799*9</h1>
+              <p><button type='submit'>i want more</button></p>
+              </form>'''
+
+@app.route('/tel',methods=['POST'])
+def get_more():
+    return '<h1>i can not find more for you</h1>'
+
+
 if __name__ == '__main__':
     app.run()
